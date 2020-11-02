@@ -1,0 +1,54 @@
+/* for tablet */
+@media all and (max-width: 1000px) {
+  .detail {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  .topWrapper h1 {
+    font-size: 32px;
+  }
+
+  .heading h2 {
+    font-size: 20px;
+  }
+}
+
+/* for smartphone */
+@media all and (max-width: 670px) {
+  .detail {
+    width: 100%;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .facebook {
+    margin-bottom: 10px;
+  }
+  
+  .topWrapper {
+    text-align: left;
+  }
+
+  .headerRight {
+    display: none;
+  }
+  
+  .menuIcon {
+    display: block !important;
+  }
+  
+  .topWrapper h1 {
+    font-size: 24px;
+  }
+
+  .topWrapper p {
+    font-size: 14px;
+  }
+}

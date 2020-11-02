@@ -1,0 +1,323 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+} 
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.container2 {
+  max-width: 1170px;
+  width: 100%;
+  padding: 100px 10px 100px 10px;
+  margin: 0 auto;
+}
+
+.topWrapper {
+  padding: 180px 0 100px 0;
+  background:linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url(https://lh3.googleusercontent.com/vMg8hNUP9soCp_9WEYIeEle-4o2DLIMQdENh_2z1IOkqI7LVfa2KCvlDvHA-NSmWwzGEl_lJHf4YwECElFcXMpsaaWo_aDY20feQoGdQDgDfk4wmpRH9yhVfLR35u71OYgXA8HaQWkw=w2400);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.topWrapper_2 {
+  padding: 180px 0 10px 0;
+  background: white;
+  background-size: cover;
+  color: black;
+  text-align: center;
+}
+
+.topWrapper h1 {
+  opacity: 0.7;
+  font-size: 50px;
+  letter-spacing: 3px;
+}
+
+.topWrapper p {
+  opacity: 0.7;
+}
+
+.btnWrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btnWrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background-color: #228B22;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.login {
+  background-color: rgb(0, 0, 0) ;
+}
+
+.btn {
+  color: white !important;
+  padding: 10px 24px;
+  display: inline-block;
+  border-radius: 7px;
+  margin-top: 10px;
+  text-align: center;
+  opacity: 0.7;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.bttn {
+  margin-top: 0px;
+}
+
+.bttn:hover {
+  opacity: 0.8 !important;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(35, 50, 50, 0.8);
+  top: 0;
+  z-index: 10;
+  position :fixed;
+}
+
+.logo {
+  width: 130px;
+  margin-top: 20px;
+}
+
+.headerLeft {
+  float: left;
+}
+
+.headerRight {
+  float: right;
+  margin-right: -25px;
+}
+
+.headerRight a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white !important;
+  display: block;
+  float: right;
+  transition: all 1s;
+}
+
+.headerRight a:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.menuIcon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 20px 0;
+  display: none !important;
+}
+
+
+.detailWrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #ececec;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.detail {
+  float: left;
+  width: 25%;
+}
+
+.detailIcon {
+  position: relative;
+}
+
+.detailIcon p {
+  position: absolute;
+  top: 45%;
+  width: 100%;
+  color: white;
+}
+
+.detailIcon img {
+  width: 200px
+}
+
+.textContents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 12px;
+  color: #8a8a8a;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.registerWrapper {
+  border-bottom: 1px solid #eee;
+  padding-top: 40px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.register {
+  width: 25%;
+  padding: 16px 5 s0px;
+  background-color: #228B22;
+  cursor: pointer;
+  box-shadow: 0 8px #155a31;
+}
+
+.register:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer {
+  background-color: rgba(35, 50, 50, 0.8);
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+
+footer img {
+  width: 130px;
+  float: left;
+  padding-bottom: 30px;
+}
+
+footer p {
+  color: #ffffff;
+  font-size: 12px;
+  padding-top: 20px;
+  text-align: right;
+}
+
+form p {
+  margin-top: 5px;
+  text-align: center;
+}
+
+
+main {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  height: 100%;
+}
+
+form {
+  background: #fff;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  border-left: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 3rem 5rem -2rem rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+  max-width: 380px;
+  padding: 15px 35px 45px;
+}
+
+.container2 h2 {
+  color: #666;
+  margin-bottom: 0.75em;
+  text-align: center;
+  font-weight: bold;
+}
+
+.input-group {
+  margin-bottom: 1.25em;
+}
+input[type="text"],
+input[type="password"] {
+  -webkit-appearance: none;
+  border-radius: 1px;
+  box-sizing: border-box;
+  font-size: 1.25em;
+  height: auto;
+  padding: 0.5em;
+}
+
+/* suppress IE >= 10 native functionality that can show password */
+input[type="password"]::-ms-reveal {
+  display: none;
+}
+
+
+#eyeIcon {
+  color: rgb(44, 52, 63);
+}
+
+.input-group {
+  position: relative;
+  width: 100%;
+}
+
+.toggle {
+  background: none;
+  border: none;
+  color: #337ab7;
+  /*display: none;*/
+  /*font-size: .9em;*/
+  font-weight: 600;
+  /*padding: .5em;*/
+  position: absolute;
+  right: 0.75em;
+  top: 2.25em;
+  z-index: 9;
+}
+

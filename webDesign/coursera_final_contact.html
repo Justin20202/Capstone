@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- setting viewport up here to make sure displaying the contents approprietly on mobile devices. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coursera Capstone Project</title>
+    <link rel="stylesheet" href="css/styleSheet.css">
+    <link rel="stylesheet" href="css/responsiveDesign.css">
+    <script src="https://kit.fontawesome.com/d44f6b9d66.js" crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    
+    <!--<link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"
+    /> 
+    <link rel="stylesheet" href="css/stylesheet.css" />
+
+  </head>
+    
+  <body>
+    <header>
+      <div class="container">
+        <div class="headerLeft">
+          <a href="coursera_final.html"><img class="logo" src="images/logo.png"></a>
+        </div>
+        <div>
+          <span class="fa fa-bars menuIcon"></span>
+        </div>
+        <div class="headerRight">
+          <a href="#">Sign Up</a>
+          <a href="coursera_final_contact.html">Login</a>
+          <a href="#">Pricing</a>
+          <a href="#">Community</a>
+          <a href="#">About</a>
+        </div>
+      </div>
+    </header>
+      
+    <main>
+      <div class="container2">
+        <form onsubmit="return false">
+          <h2>Login</h2>
+          <div class="input-group" style="margin-bottom: 10px;">
+            <label for="txtUserName">User Name</label>
+            <input
+              id="username"
+              type="text"
+              class="form-control"
+              name="txtUserName"
+            />
+          </div>
+          <p style="color:red" id="username_error"></p>
+          <div class="input-group" style="margin-bottom: 10px;">
+            <label for="email">Email</label>
+            <input id="email" type="text" class="form-control" name="email" />
+          </div>
+          <p style="color:red" id="email_error"></p>
+          <div class="input-group" style="margin-bottom: 10px;">
+            <label for="txtPassword">Password</label>
+            <input
+              type="password"
+              id="txtPassword"
+              class="form-control"
+              name="txtPassword"
+            />
+            <a><p>Forgot Your Password?</p></a>
+            <a><p>Already a Member? Click Here</p></a>
+            <button type="button" id="btnToggle" class="toggle">
+              <i id="eyeIcon" class="fa fa-eye"></i>
+            </button>
+          </div>
+          <p style="color:red" id="txtPassword_error"></p>
+          <button class="bttn btn-lg btn-primary btn-block login" id="submit_form">
+            Login
+          </button>
+          <button href="#" class="bttn btn-lg btn-primary btn-block facebook"><i class="fa fa-facebook"></i>Login with Facebook</button>
+          <button href="#" class="bttn btn-lg btn-primary btn-block twitter"><i class="fa fa-twitter"></i>Login with Facebook</button>
+        </form>
+      </div>
+    </main>
+      
+    <footer>
+      <div class="container">
+        <a href="coursera_final.html"><img class="logo" src="images/logo.png"></a>
+        <p>2020 ©LOGOTYPE ALL RIGHT RESERVED.</p>
+      </div>
+    </footer>
+    <script src="js/script.js"></script>
+
+  </body>
+</html>
